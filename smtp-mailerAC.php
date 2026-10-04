@@ -2,7 +2,7 @@
 /*
 Plugin Name: SMTP & Email Logger - toolkitAC
 Plugin URI: https://anderson526.github.io/portfolio-profesional/
-Description: Envía los correos de WordPress por SMTP para evitar que lleguen a spam y guarda un registro de todos los envíos. Parte de la suite AnderC Essential.
+Description: Envía los correos de WordPress por SMTP para evitar que lleguen a spam y guarda un registro de todos los envíos. Parte de la suite AC Essential.
 Version: 1.0.0
 Author: Anderson Chila
 Author URI: https://anderson526.github.io/portfolio-profesional/

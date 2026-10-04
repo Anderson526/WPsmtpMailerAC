@@ -20,8 +20,8 @@ class ASM_Admin {
 
 	public function register_menu() {
 		add_menu_page(
-			__( 'AnderC SMTP', 'anderc-smtp-mailer' ),
-			__( 'AnderC SMTP', 'anderc-smtp-mailer' ),
+			__( 'AC SMTP', 'anderc-smtp-mailer' ),
+			__( 'AC SMTP', 'anderc-smtp-mailer' ),
 			'manage_options',
 			self::SLUG,
 			array( $this, 'render' ),
@@ -72,8 +72,8 @@ class ASM_Admin {
 
 		$sent = wp_mail(
 			$to,
-			__( 'Correo de prueba — AnderC SMTP', 'anderc-smtp-mailer' ),
-			__( "¡Hola!\n\nSi estás leyendo esto, la configuración SMTP de tu sitio funciona correctamente.\n\n— AnderC SMTP & Email Logger", 'anderc-smtp-mailer' )
+			__( 'Correo de prueba — AC SMTP', 'anderc-smtp-mailer' ),
+			__( "¡Hola!\n\nSi estás leyendo esto, la configuración SMTP de tu sitio funciona correctamente.\n\n— AC SMTP & Email Logger", 'anderc-smtp-mailer' )
 		);
 
 		$this->redirect( 'test', $sent ? 'test_sent' : 'test_failed' );
@@ -114,7 +114,7 @@ class ASM_Admin {
 		$tab = in_array( $tab, array( 'settings', 'logs', 'test' ), true ) ? $tab : 'settings';
 		?>
 		<div class="wrap anderc-wrap">
-			<h1><span class="anderc-badge">AnderC</span> <?php esc_html_e( 'SMTP & Email Logger', 'anderc-smtp-mailer' ); ?></h1>
+			<h1><span class="anderc-badge">AC</span> <?php esc_html_e( 'SMTP & Email Logger', 'anderc-smtp-mailer' ); ?></h1>
 
 			<?php $this->notices(); ?>
 

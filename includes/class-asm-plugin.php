@@ -27,6 +27,7 @@ final class ASM_Plugin {
 
 		if ( is_admin() ) {
 			new ASM_Admin();
+			new ASM_Donations();
 		}
 	}
 
