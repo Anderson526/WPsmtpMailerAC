@@ -1,5 +1,28 @@
 # SMTP & Email Logger - toolkitAC
 
+## Creador
+
+Desarrollado por Anderson Chila.
+
+Portafolio profesional: https://anderson526.github.io/portfolio-profesional/
+
+## Lenguaje y stack técnico
+
+- PHP 7.4+
+- WordPress 6.x
+- PHPMailer
+- Hooks de WordPress como wp_mail, phpmailer_init y wp_mail_failed
+- MySQL para historial de correos
+- JavaScript y CSS para administración
+
+## Uso
+
+1. Instala el plugin en wp-content/plugins/.
+2. Actívalo desde el panel de WordPress.
+3. Configura SMTP con el host, puerto, cifrado y credenciales.
+4. Prueba el envío desde la pestaña de prueba.
+5. Consulta el historial de correos enviados y errores desde la administración.
+
 ## Descripción
 
 SMTP & Email Logger - toolkitAC es un plugin para WordPress orientado a la entrega de correos mediante SMTP y al registro de cada envío para fines de auditoría, diagnóstico y validación operativa. El complemento intercepta la salida generada por `wp_mail` y configura PHPMailer a través del hook `phpmailer_init`, garantizando que los mensajes salgan por el servidor SMTP definido en la configuración del sitio.
@@ -177,3 +200,7 @@ Este plugin se distribuye bajo la licencia GPL-2.0-or-later.
 ## Notas finales
 
 El plugin es una solución ligera y funcional para sitios WordPress que requieren una capa fiable de envío por SMTP y observabilidad del flujo de correo. Está diseñado para ser gestionado desde el panel de administración sin depender de complejos servicios externos.
+
+## Agradecimiento
+
+Gracias a la comunidad de desarrolladores WordPress, a la comunidad PHP y a quienes aprecian el trabajo del creador. Este proyecto busca aportar confiabilidad, control y tranquilidad a la entrega de correos en entornos profesionales.
